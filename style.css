@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --btn-line1-color: #f7a04a;
+    --btn-lineno-color: #e0d5d5;
+}
+body{
+    height: 100vh;
+    background-color: rgb(68, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: rgb(57, 56, 56);
+    width: 270px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgb(37, 36, 36);
+}
+.text_box{
+    color: white;
+    text-align: right;
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 30px;
+    pointer-events: none;
+}
+.buttons{
+    user-select: none;
+    background-color: rgb(57, 55, 55);
+    padding: 5%;
+    border-radius: 8px;
+}
+.btn{
+    box-shadow: 1px 1px 5px rgb(33, 33, 33);
+    font-size: 20px;
+    width: 51px;
+    height: 46px;
+    margin-right: 2.7%;
+    margin-bottom: 2.8%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn1{
+    box-shadow: 1px 1px 5px rgb(33, 33, 33);
+    font-size: 18px;
+    width: 51px;
+    height: 46px;
+    margin-right: 2.7%;
+    margin-bottom: 2.8%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.btn-orange{
+    background-color: var(--btn-line1-color);
+    color: white;
+}
+.btn-gray{
+    background-color: var(--btn-lineno-color);
+}
+.btn-equal{
+    background-color: rgb(91, 210, 91);
+}
+.btn-clear{
+    background-color: rgb(243, 50, 50);
+}
